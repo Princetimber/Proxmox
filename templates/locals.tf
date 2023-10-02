@@ -56,12 +56,12 @@ locals {
         bridge = "vmbr1"
       }
       disk = {
-        type     = "scsi"
-        storage  = "local-lvm"
-        size     = "80G"
-        discard  = "on"
-        ssd      = 1
-        cache    = "writeback"
+        type    = "scsi"
+        storage = "local-lvm"
+        size    = "80G"
+        discard = "on"
+        ssd     = 1
+        cache   = "writeback"
       }
       balloon = 8192
       scsihw  = "virtio-scsi-pci"
@@ -92,12 +92,12 @@ locals {
         bridge = "vmbr1"
       }
       disk = {
-        type     = "scsi"
-        storage  = "local-lvm"
-        size     = "80G"
-        discard  = "on"
-        ssd      = 1
-        cache    = "writeback"
+        type    = "scsi"
+        storage = "local-lvm"
+        size    = "80G"
+        discard = "on"
+        ssd     = 1
+        cache   = "writeback"
       }
       balloon = 8192
       scsihw  = "virtio-scsi-pci"
@@ -128,12 +128,12 @@ locals {
         bridge = "vmbr1"
       }
       disk = {
-        type     = "scsi"
-        storage  = "local-lvm"
-        size     = "100G"
-        discard  = "on"
-        ssd      = 1
-        cache    = "writeback"
+        type    = "scsi"
+        storage = "local-lvm"
+        size    = "100G"
+        discard = "on"
+        ssd     = 1
+        cache   = "writeback"
       }
       balloon = 8192
       scsihw  = "virtio-scsi-pci"
